@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script>
+     var reduce = "haha";
+      var data = [
+        { name: "计算机安装与维护", credit: 2 },
+        { name: "静态网页制作", credit: 2 },
+        { name: "计算机编程基础", credit: 4 },
+        { name: "大学英语", credit: 2 },
+        { name: "软件技术导论", credit: 2 }
+      ];
+      data.start = { max: my.max(data) };
+      console.log(data.start);
+    </script>
 </head>
 
 <body>
